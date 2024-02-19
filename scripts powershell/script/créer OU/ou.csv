@@ -1,0 +1,11 @@
+﻿NomOU;CheminOU
+Utilisateurs;DC=capital,DC=local
+Postes;DC=capital,DC=local
+Groupes;DC=capital,DC=local
+Laboratoire;ou=Utilisateurs,DC=capital,DC=local
+Comptabilité;ou=Utilisateurs,DC=capital,DC=local
+Informatique;ou=Utilisateurs,DC=capital,DC=local
+Juridique;ou=Utilisateurs,DC=capital,DC=local
+RH;ou=Utilisateurs,DC=capital,DC=local
+Direction;ou=Utilisateurs,DC=capital,DC=local
+R&D;ou=Utilisateurs,DC=capital,DC=local

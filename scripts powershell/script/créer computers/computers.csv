@@ -1,0 +1,10 @@
+﻿Nom;Description;Path
+FIL01;srvfiles;OU=Servers,DC=ad,DC=lan
+FIL02;srvfiles;OU=Servers,DC=ad,DC=lan
+MEX01;srvmsg;OU=Servers,DC=ad,DC=lan
+MEX02;srvmsg;OU=Servers,DC=ad,DC=lan
+SRV01;srvtest;OU=Servers,DC=ad,DC=lan
+WKS14;Workstation;OU=Desktop,OU=Clients,DC=ad,DC=lan
+WKS13;Workstation;OU=Desktop,OU=Clients,DC=ad,DC=lan
+LAP05;Laptop;OU=Laptop,OU=Clients,DC=ad,DC=lan
+LAP06;Laptop;OU=Laptop,OU=Clients,DC=ad,DC=lan

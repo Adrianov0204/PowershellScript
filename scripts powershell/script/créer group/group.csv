@@ -1,0 +1,8 @@
+﻿Nom;Description;Path;Scope
+Informatique;Personnel du service informatique;OU=Groupes,DC=capital,DC=local;1
+Direction;personnel de Direction;OU=Groupes,DC=capital,DC=local;1
+Laboratoire;personnel de Laboratoire;OU=Groupes,DC=capital,DC=local;1
+Comptabilité;personnel du service Comptabilité;OU=Groupes,DC=capital,DC=local;1
+Juridique;service Juridique;OU=Groupes,DC=capital,DC=local;1
+R&D;service de recherche et développement;OU=Groupes,DC=capital,DC=local;1
+RH;service ressources humaines;OU=Groupes,DC=capital,DC=local;1
