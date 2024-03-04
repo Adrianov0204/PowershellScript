@@ -9,7 +9,7 @@ Foreach ($OU in $CSVData) {
     if (Get-ADOrganizationalUnit -Filter {Name -eq $NomOU} -SearchBase $CheminOU) {
         Write-Warning "L'OU $NomOU existe déjà dans l'AD"
     } else {
-        New-ADOrganizationalUnit -Name $NomOU -Path $CheminOU -ProtectedFromAccidentalDeletion:$false -PassThru
+        New-ADOrganizationalUnit -Name $NomOU -Path $CheminOU -ProtectedFromAccidentalDeletion:$true -PassThru
         Write-Output "Création de l'OU : $NomOU"
     }
 }
