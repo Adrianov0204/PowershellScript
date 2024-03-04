@@ -1,6 +1,6 @@
 ﻿$CSVFile = "techniciens.csv"
 $CSVData = Import-CSV -Path $CSVFile -Delimiter ";" -Encoding UTF8
-Set-ADOrganizationalUnit -Identity "OU=Utilisateurs,DC=capital,DC=local" -ProtectedFromAccidentalDeletion:$false -PassThru
+Set-ADOrganizationalUnit -Identity "OU=Utilisateurs,DC=capital,DC=local" -ProtectedFromAccidentalDeletion:$true -PassThru
 
 foreach ($Utilisateur in $CSVData) {
     $UtilisateurPrenom = $Utilisateur.Prenom
